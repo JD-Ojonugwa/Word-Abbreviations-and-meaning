@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+ h1 {
+  text-align: center;
+  color: rosybrown;
+}
+
+.host {
+  width: 70%;
+  margin: auto;
+}
+
+button {
+  background-color: rosybrown;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+ input {
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+ }
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 10px;
+  background-color: peachpuff;
+  transition: transform 0.3s ease; 
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color: rosybrown;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card-description {
+  color: grey;
+  line-height: 1.5;
+}
+
