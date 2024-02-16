@@ -27,7 +27,7 @@ button {
  }
 .card-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: auto-fill(min-max(200px, 1fr));
   border-radius: 20px;
 }
 
